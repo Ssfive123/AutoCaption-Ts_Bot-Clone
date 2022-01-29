@@ -43,7 +43,7 @@ async def editing(bot, message):
                  message_id = message.message_id,
                  caption = file_caption + "\n \n" + "**♻️ᴊᴏɪɴ @Cinemahub182**",
                  parse_mode = "markdown",
-                 reply_markup=InlineKeyboardMarkup(
+                 reply_markdown=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton("🔖ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜʙᴛɪᴛʟᴇ🔖", url="https://telegra.ph/httpstelegraphfilee908cfc0d08e47ca337ecjpg-01-06")
               ]]
