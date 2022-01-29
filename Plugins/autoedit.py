@@ -4,7 +4,7 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 import asyncio
-from pyrogram import filters
+from pyrogram import filters, InlineKeyboardButton, InlineKeyboardMarkup
 from bot import autocaption
 from config import Config
 from database.database import *
@@ -43,7 +43,7 @@ async def editing(bot, message):
                  message_id = message.message_id,
                  caption = file_caption + "\n \n" + "**♻️ᴊᴏɪɴ @Cinemahub182**",
                  parse_mode = "markdown",
-                 reply_markdown=InlineKeyboardMarkup(
+                 reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton("🔖ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜʙᴛɪᴛʟᴇ🔖", url="https://telegra.ph/httpstelegraphfilee908cfc0d08e47ca337ecjpg-01-06")
               ]]
