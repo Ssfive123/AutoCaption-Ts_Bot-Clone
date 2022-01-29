@@ -4,7 +4,8 @@ logging.basicConfig(level=logging.DEBUG,
 logger = logging.getLogger(__name__)
 
 import asyncio
-from pyrogram import filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from bot import autocaption
 from config import Config
 from database.database import *
