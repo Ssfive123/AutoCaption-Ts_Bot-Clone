@@ -46,7 +46,7 @@ async def editing(bot, message):
                  parse_mode = "markdown",
                  reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url="https://t.me/+2HojCKedvfM2M2U1")
+              InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url="https://t.me/+tsGRU0kdPUs2Y2U9")
               ]]
         )
                  )
