@@ -43,11 +43,11 @@ async def editing(bot, message):
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption + "\n \n" + "**__Join For Movies 👇 \nhttps://t.me/MH_Moviess__**",
+                 caption = file_caption + "\n \n" + "**__💖 Join :- @MHlinkz__**",
                  parse_mode = "markdown",
                  reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ❤️‍🔥", url="https://t.me/+CJHuhlFbLeQ3ZmE1")
+              InlineKeyboardButton("📣 Join Our Group 🎬", url="https://t.me/+jDYSx5O_geQ1ZThl")
               ]]
         )
                  )
